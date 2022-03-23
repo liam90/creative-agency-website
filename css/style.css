@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-  --primary-color: #f60f20;
-  --secondary-color: #e62828;
+  --primary-color: #005515;
+  --secondary-color: #003f86;
 }
 
 /* BASE STYLES */
@@ -14,7 +14,8 @@
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
   color: #111;
 }
 
