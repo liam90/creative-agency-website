@@ -151,10 +151,6 @@ section.home {
   transform: scale(0.5);
 }
 
-.navigation .social-bar a:hover {
-  fill-opacity: 0.6;
-}
-
 .navigation .email-icon {
   position: absolute;
   bottom: 20px;
