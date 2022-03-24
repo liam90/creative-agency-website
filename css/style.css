@@ -56,7 +56,13 @@ section.home {
 }
 
 .btn:hover {
+  background-color: var(--secondary-color);
   transform: scale(0.98);
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .logo {
@@ -84,7 +90,7 @@ section.home {
 }
 
 .toggle.active {
-  background: var(--primary-color) url(../images/close.png);
+  background: var(--secondary-color) url(../images/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,7 +101,7 @@ section.home {
   position: fixed;
   top: 0;
   left: 100%;
-  width: 100%;
+  width: 30%;
   height: 100%;
   background-color: #fff;
   z-index: 15;
@@ -120,7 +126,7 @@ section.home {
 
 .navigation ul li a {
   font-size: 2.2rem;
-  color: #111;
+  color: #999;
   text-decoration: none;
   font-weight: 400;
 }
@@ -143,6 +149,10 @@ section.home {
 .navigation .social-bar a {
   display: inline-block;
   transform: scale(0.5);
+}
+
+.navigation .social-bar a:hover {
+  fill-opacity: 0.6;
 }
 
 .navigation .email-icon {
