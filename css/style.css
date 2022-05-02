@@ -16,12 +16,13 @@ html,
 body {
   background-color: #eee;
   font-family: 'Roboto', sans-serif;
-  color: var(--secondary-color);
+  color: hsl(0, 0%, 60%);
 }
 
 h1 {
   font-size: 30px;
   font-weight: 500;
+  color: var(--secondary-color);
 }
 
 p {
@@ -62,7 +63,7 @@ section.home {
 
 .logo a {
   text-decoration: none;
-  color: inherit;
+  color: var(--secondary-color);
 }
 
 .logo {
@@ -81,7 +82,7 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  background: var(--primary-color) url(../assets/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +91,7 @@ section.home {
 }
 
 .toggle.active {
-  background: var(--secondary-color) url(../images/close.png);
+  background: var(--secondary-color) url(../assets/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +101,7 @@ section.home {
 .navigation {
   position: fixed;
   top: 0;
-  left: 100%;
+  right: 100%;
   width: 30%;
   height: 100%;
   background-color: #fff;
@@ -111,7 +112,7 @@ section.home {
 }
 
 .navigation.active {
-  left: 0;
+  right: 0;
 }
 
 .navigation ul {
@@ -126,7 +127,7 @@ section.home {
 
 .navigation ul li a {
   font-size: 2.2rem;
-  color: #999;
+  color: hsl(0, 0%, 60%);
   text-decoration: none;
   font-weight: 400;
 }
@@ -138,7 +139,7 @@ section.home {
 .navigation .social-bar {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 60px;
   height: 100%;
   display: flex;
@@ -159,17 +160,23 @@ section.home {
 
 /* HOMEPAGE */
 .home-content {
-  position: relative;
-  z-index: 10;
-  max-width: 600px;
+  /* position: relative; */
+  /* z-index: 10; */
+  max-width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  background-image: url(../assets/home-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.home-img {
+/* .home-img {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 110%;
-}
+  height: 90vh;
+} */
 
 /* SERVICES PAGE */
 .services {
