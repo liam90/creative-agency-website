@@ -39,10 +39,10 @@ section {
   margin-top: 60px;
 }
 
-section.home {
+/* section.home {
   flex-direction: row;
   margin-top: 0;
-}
+} */
 
 /* BUTTON */
 .btn {
